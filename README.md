@@ -34,3 +34,8 @@ This project performs basic exploratory data analysis (EDA) using a sample datas
 ```bash
 pip install -r requirements.txt
 python analysis.py
+
+
+pip install seaborn
+python -c "import seaborn as sns; sns.load_dataset('tips').to_csv('data/sample.csv', index=False)"
+
